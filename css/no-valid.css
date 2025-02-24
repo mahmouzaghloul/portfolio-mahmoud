@@ -1,0 +1,71 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.perant
+{
+    height: 100vh;
+   border:1px solid white;
+}
+.perant_text
+{
+
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+   margin-left: 20%;
+    justify-content: center;
+}
+span{
+    color: brown;
+}
+.text_1
+{
+transition: all 1s ease-in-out;
+animation: top 1s ease-in-out ;
+}
+.text_2
+{
+    transition: all 1s ease-in-out;
+    animation: top 2s ease-in-out ;
+}
+.text_3
+{
+    transition: all 1s ease-in-out;
+    animation: top 3s ease-in-out ;
+}
+.text_4
+{
+    transition: all 1s ease-in-out;
+    animation: top 4s ease-in-out ;
+}
+.text_5
+{
+    transition: all 1s ease-in-out;
+    animation: top 5s ease-in-out ;
+}
+.text_6
+{
+    transition: all 1s ease-in-out;
+    animation: top 6s ease-in-out ;
+}
+.text_7
+{
+    transition: all 1s ease-in-out;
+    animation: top 7s ease-in-out ;
+}
+
+
+@keyframes top
+{
+    0%
+    {
+       transform: translatey(-1000px);
+    }
+}
